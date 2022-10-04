@@ -1,46 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 이번강의에서 LinearLayout사용 -->
+<!--
+    LinearLayout : 직관적으로 정렬 되는 구조
+    하위 돔 형태에 따라 가로, 세로 정렬이 됨
+-->
+<!--
+    Relative Layout : 겹쳐서 쌓임
+    하위 돔 끼리 겹쳐짐(전부 absolute??)
+-->
+<!--
+    Constraint Layout : 하위 요소들끼리 정해놓은 비율로 떨어뜨려준다.
+-->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <ImageView
-        android:src="@drawable/bts_1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
 
-    <ImageView
-        android:src="@drawable/bts_2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"/>
+        <ImageView
+            android:id="@+id/bts_image_1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_1" />
 
-    <ImageView
-        android:src="@drawable/bts_3"
-        android:layout_width="100dp"
-        android:layout_height="100dp"/>
+        <ImageView
+            android:id="@+id/bts_image_2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_2" />
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/bts_4" />
+        <ImageView
+            android:id="@+id/bts_image_3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_3" />
+    </LinearLayout>
 
-    <ImageView
-        android:src="@drawable/bts_5"
-        android:layout_width="100dp"
-        android:layout_height="100dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <ImageView
+            android:id="@+id/bts_image_4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bts_4" />
 
-    <ImageView
-        android:src="@drawable/bts_6"
-        android:layout_width="100dp"
-        android:layout_height="100dp"/>
+        <ImageView
+            android:id="@+id/bts_image_5"
+            android:src="@drawable/bts_5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
 
-    <ImageView
-        android:src="@drawable/bts_7"
-        android:layout_width="100dp"
-        android:layout_height="100dp"/>
+        <ImageView
+            android:id="@+id/bts_image_6"
+            android:src="@drawable/bts_6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <ImageView
+            android:id="@+id/bts_image_7"
+            android:src="@drawable/bts_7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+    </LinearLayout>
 
 </LinearLayout>
