@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // 1. 화면이 클릭을 감지해야함.
+        // 변수
         val image1 = findViewById<ImageView>(R.id.bts_image_1)
         val image2 = findViewById<ImageView>(R.id.bts_image_2)
         val image3 = findViewById<ImageView>(R.id.bts_image_3)
@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         val image6 = findViewById<ImageView>(R.id.bts_image_6)
         val image7 = findViewById<ImageView>(R.id.bts_image_7)
 
+        // 1. 화면이 클릭을 감지해야함.
         image1.setOnClickListener {
             Toast.makeText(this, "1번 클릭 완료", Toast.LENGTH_LONG).show()
 
