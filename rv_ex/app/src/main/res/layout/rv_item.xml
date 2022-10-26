@@ -5,19 +5,11 @@
     android:layout_height="80dp">
 
     <TextView
-        android:id="@+id/listviewItemText"
-        android:text="Text Text"
+        android:id="@+id/rvItem"
+        android:text="rv"
         android:textSize="20sp"
         android:layout_margin="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-    <TextView
-        android:id="@+id/listviewItemText2"
-        android:text="Text Text"
-        android:textSize="10sp"
-        android:layout_margin="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
 
 </LinearLayout>
