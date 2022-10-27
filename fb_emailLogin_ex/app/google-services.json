@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "495165717822",
+    "project_id": "fir-email-password-auth-4ec38",
+    "storage_bucket": "fir-email-password-auth-4ec38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495165717822:android:4b19bbf2264febc6a4406f",
+        "android_client_info": {
+          "package_name": "com.hugo.fb_emaillogin_ex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495165717822-rttgnkh8fa4vciknu30spr5aeacseo2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeN3BJVM7EuMW32RIijdz9-LFfzyhTOVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495165717822-rttgnkh8fa4vciknu30spr5aeacseo2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

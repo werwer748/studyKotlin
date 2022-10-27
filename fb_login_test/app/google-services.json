@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143147798138",
+    "project_id": "fb-login-test-a15b8",
+    "storage_bucket": "fb-login-test-a15b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143147798138:android:608f568908f12cef5075c3",
+        "android_client_info": {
+          "package_name": "com.hugo.fb_login_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143147798138-j2tidtbaqrkpgp55sk8db8tj7mgm2u57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcZgOdEx3IMmtrow5ArXoMWJEjVewMksw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143147798138-j2tidtbaqrkpgp55sk8db8tj7mgm2u57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
